@@ -1,0 +1,21 @@
+﻿[
+  {
+    "Id": 1,
+    "Type": "Income",
+    "BankAccountId": 1,
+    "Amount": 500,
+    "Date": "2025-03-20T00:00:00",
+    "Description": "Salary",
+    "CategoryId": 1
+  },
+  {
+    "Id": 2,
+    "Type": "Expense",
+    "BankAccountId": 1,
+    "Amount": 200,
+    "Date": "2025-03-21T00:00:00",
+    "Description": "Groceries",
+    "CategoryId": 2
+  }
+]
+
