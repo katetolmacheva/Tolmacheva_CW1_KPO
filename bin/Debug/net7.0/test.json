@@ -1,0 +1,11 @@
+[
+  {
+    "Id": 1,
+    "Type": "Income",
+    "BankAccountId": 1,
+    "Amount": 100.0,
+    "Date": "2025-03-20T23:39:35.5828717+03:00",
+    "Description": "Salary",
+    "CategoryId": 1
+  }
+]

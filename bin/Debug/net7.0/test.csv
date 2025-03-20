@@ -1,0 +1,2 @@
+Id,Type,BankAccountId,Amount,Date,Description,CategoryId
+1,Income,1,100,03/20/2025 23:39:35,Salary,1
