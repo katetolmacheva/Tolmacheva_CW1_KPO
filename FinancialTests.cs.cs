@@ -1,4 +1,4 @@
-﻿using Xunit;
+using Xunit;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -7,7 +7,6 @@ namespace Tolmacheva_KPO_CW1
 {
   public class FinancialTests
   {
-    // === ТЕСТЫ FinancialFacade ===
     [Fact]
     public void AddAccount_ShouldIncreaseAccountsCount()
     {
@@ -107,5 +106,6 @@ namespace Tolmacheva_KPO_CW1
 
       File.Delete("test_data/test_import.json");
     }
+
   }
 }
