@@ -14,7 +14,7 @@
 Проект требует **.NET 7.0**. Установите его, если он отсутствует:
 
 ## Нужно клонировать проект или скачать файлы
-git clone https://github.com/katetolmacheva/Tolmacheva_KPO_CW1.git
+git clone https://github.com/katetolmacheva/Tolmacheva_KPO_CW1
 cd Tolmacheva_KPO_CW1
 
 ## Собрать и запустить программу
