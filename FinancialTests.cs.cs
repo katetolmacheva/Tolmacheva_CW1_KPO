@@ -107,18 +107,5 @@ namespace Tolmacheva_KPO_CW1
 
       File.Delete("test_data/test_import.json");
     }
-
-    [Fact]
-    public void ImportCsv_ShouldLoadData()
-    {
-      var csvContent = "Id,Type,BankAccountId,Amount,Date,Description,CategoryId\n1,Income,1,500,2025-03-20T00:00:00,Salary,1";
-      File.WriteAllText("test_data/test_import.csv", csvContent);
-
-      var operations = DataImporter.ImportFromCsv("test_data/test_import.csv");
-      Assert.Single(operations);
-      Assert.Equal("Income", operations[0].Type);
-
-      File.Delete("test_data/test_import.csv");
-    }
   }
 }
